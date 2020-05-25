@@ -21,5 +21,10 @@ namespace ProyectoControlVersiones
         {
 
         }
+
+        private void tNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

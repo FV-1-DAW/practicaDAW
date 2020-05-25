@@ -45,6 +45,7 @@
             this.tNombre.Name = "tNombre";
             this.tNombre.Size = new System.Drawing.Size(137, 20);
             this.tNombre.TabIndex = 0;
+            this.tNombre.TextChanged += new System.EventHandler(this.tNombre_TextChanged);
             // 
             // tApellidos
             // 
