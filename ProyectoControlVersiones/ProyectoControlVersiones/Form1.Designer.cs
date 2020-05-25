@@ -84,9 +84,9 @@
             this.lTelefono.AutoSize = true;
             this.lTelefono.Location = new System.Drawing.Point(681, 54);
             this.lTelefono.Name = "lTelefono";
-            this.lTelefono.Size = new System.Drawing.Size(55, 13);
+            this.lTelefono.Size = new System.Drawing.Size(41, 13);
             this.lTelefono.TabIndex = 5;
-            this.lTelefono.Text = "Teléfono: ";
+            this.lTelefono.Text = "Movil:  ";
             // 
             // lListaSocios
             // 
