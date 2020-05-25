@@ -26,5 +26,21 @@ namespace ProyectoControlVersiones
         {
 
         }
+
+        private void bGuardar_Click(object sender, EventArgs e)
+        {
+            string nombre, apellidos, telefono, añadido;
+            
+
+            nombre = tNombre.Text;
+            apellidos = tApellidos.Text;
+            telefono = tTelefono.Text;
+
+            añadido = tListaSocios.Text;
+
+            tListaSocios.Text = añadido + "\n" + nombre + ", " + apellidos + ", " + telefono; 
+
+
+        }
     }
 }
